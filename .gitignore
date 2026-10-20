@@ -1,0 +1,31 @@
+# Dependencies and package-manager caches
+node_modules/
+.npm-cache/
+.pnpm-store/
+
+# Next.js build output and TypeScript cache
+.next/
+out/
+dist/
+*.tsbuildinfo
+
+# Local environment files and credentials
+.env*
+!.env.example
+.qa/
+
+# Test output
+coverage/
+playwright-report/
+test-results/
+
+# Logs
+*.log
+
+# Local deployment configuration
+.vercel/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
